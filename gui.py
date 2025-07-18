@@ -8,7 +8,6 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 matplotlib.use("TkAgg")
 
-# Sample categories
 CATEGORIES = ["Food", "Transport", "Utilities", "Entertainment", "Other"]
 
 class ExpenseTrackerApp(tk.Tk):
